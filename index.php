@@ -3,6 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              
+ 
         <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
@@ -15,19 +17,15 @@
         <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="HandheldFriendly" content="true">  
-        <style>
-           
-          </style>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
   </head>
   <body>
-      
- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <header class="navigation" id="sticky-nav">
         <div class="container">
 	
             <div class="top-logo">
-                <a href="#"><img src="https://i.ibb.co/zG54csq/logo.png"></a>
+                <a href="#"><img src="img/logo3.png"></a>
             </div>
 		
 			
@@ -36,13 +34,13 @@
                 <div class="button"></div>
 
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="services.html">Services</a>
-                    <li><a href="team.html">Team</a></li>
-                    <li><a href="portfolio.html">portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-<!--                    <li class="book_trip"><a href="#"><i class="fa fa-map-marker"></i> Book Your Trip</a></li>-->
+                    <li><a href="#index">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+     <!--<li class="book_trip"><a href="#"><i class="fa fa-map-marker"></i> Book Your Trip</a></li>-->
                 </ul>
             </nav>
 			
@@ -55,30 +53,17 @@
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse1" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand mx-auto" href="#">Gra<span>freez</span></a>
-      <div class="collapse navbar-collapse" id="navbarCollapse1">
-        <ul class="navbar-nav ml-auto">
-         <li class="nav-item active"> <a class="nav-link" href="#myCarousel">Home <span class="sr-only">(current)</span></a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#benefits">Benefits</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#about">About</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#blog">Blog</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#gallery">Image Gallery</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#contact">Contact</a> </li>
-        </ul>
-      </div>
-            </div>
-    </nav>-->
-
-<!-- Swiper Silder
-    ================================================== --> 
 <!-- Slider main container -->
 <div class="swiper-container main-slider" id="myCarousel">
   <div class="swiper-wrapper">
-    <div class="swiper-slide slider-bg-position" style="background:url('agri-pic3.jpeg')" data-hash="slide1">
+    <div class="swiper-slide slider-bg-position" style="background-image:url('img/agri-img3.jpeg')" data-hash="slide1">
       <h2>It is love and passion that makes us to care about the land that feed us</h2>
     </div>
-    <div class="swiper-slide slider-bg-position" style="background:url('agri-pic4.jpeg')" data-hash="slide2">
+    <div class="swiper-slide slider-bg-position" style="background-image:url('img/agri-img4.jpg')" data-hash="slide2">
       <h2>The is nothing more exciting than to ensure our land is in good condition</h2>
+    </div>
+      <div class="swiper-slide slider-bg-position" style="background-image:url('img/agri-img1.jpeg')" data-hash="slide3">
+      <h2>We are inspired to conserve nature as it plays a huge rule in many lives </h2>
     </div>
   </div>
   <!-- Add Pagination -->
@@ -87,8 +72,9 @@
   <div class="swiper-button-prev"><i class="fa fa-chevron-left"></i></div>
   <div class="swiper-button-next"><i class="fa fa-chevron-right"></i></div>
 </div>
-<!-- Nav-bar-->
-<div class="aboutus-section">
+<!-- end of Nav-bar-->
+<!--start of about us-->
+<div class="aboutus-section" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6 col-xs-12">
@@ -101,7 +87,7 @@
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="aboutus-banner">
-                        <img src="agri-img5.jpeg" style="width:300px;height:300px" alt="">
+                        <img src="img/agri-img5.jpeg" style="width:300px;height:300px" alt="">
                     </div>
                 </div>
                 <div class="col-md-5 col-sm-6 col-xs-12">
@@ -144,6 +130,72 @@
             </div>
         </div>
     </div>
+<!-- end of about us-->
+<!-- start of our services-->
+      <section class="services pt-100 pb-50" id="services">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-6 mx-auto text-center">
+                  <div class="section-title mb-100">
+                     <p>what we can do</p>
+                     <h4>OUR SERVICES</h4>
+                  </div>
+               </div>
+                
+            </div>
+            <div class="row">
+               <div class="col-lg-4 col-md-6">
+                  <!-- Single Service -->
+                  <div class="single-service">
+                     <i class="fa fa-laptop"></i>
+                     <h4>Web Design </h4>
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                  <!-- Single Service -->
+                  <div class="single-service">
+                     <i class="fa fa-gears"></i>
+                     <h4>Web Development</h4>
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                  <!-- Single Service -->
+                  <div class="single-service">
+                     <i class="fa fa-mobile"></i>
+                     <h4>Responsive Design</h4>
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                  <!-- Single Service -->
+                  <div class="single-service">
+                     <i class="fa fa-magic"></i>
+                     <h4>Graphic Design</h4>
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                  <!-- Single Service -->
+                  <div class="single-service">
+                     <i class="fa fa-pencil"></i>
+                     <h4>Creative Design</h4>
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                  <!-- Single Service -->
+                  <div class="single-service">
+                     <i class="fa fa-fa fa-lightbulb-o"></i>
+                     <h4>Branding</h4>
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+<!-- end of our services-->
 <!-- Team -->
 <section id="team" class="pb-5">
     <div class="container">
@@ -156,7 +208,7 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="img/balos3.png" alt="card image"></p>
                                     <h4 class="card-title">Siphiwe Nkuna</h4>
                                     <p class="card-text">This is basic card with image on top, title, description and button.</p>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -204,8 +256,8 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_02.png" alt="card image"></p>
-                                    <h4 class="card-title">Kegomoditswe Baloi</h4>
+                                    <p><img class=" img-fluid" src="img/balos1.png" alt="card image"></p>
+                                    <h4 class="card-title">Kegomoditswe Baloyi</h4>
                                     <p class="card-text">This is basic card with image on top, title, description and button.</p>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                                 </div>
@@ -214,7 +266,7 @@
                         <div class="backside">
                             <div class="card">
                                 <div class="card-body text-center mt-4">
-                                    <h4 class="card-title">Kegomoditswe Baloi</h4>
+                                    <h4 class="card-title">Kegomoditswe Baloyi</h4>
                                     <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
                                     <ul class="list-inline">
                                         <li class="list-inline-item">
@@ -252,7 +304,7 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_03.png" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="img/balos5.png" alt="card image"></p>
                                     <h4 class="card-title">Josephine Baloi</h4>
                                     <p class="card-text">This is basic card with image on top, title, description and button.</p>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -300,7 +352,7 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_04.jpg" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="img/balos2.png" alt="card image"></p>
                                     <h4 class="card-title">Malebo Baloi</h4>
                                     <p class="card-text">This is basic card with image on top, title, description and button.</p>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -348,7 +400,7 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_05.png" alt="card image"></p>
+                                    <p><img class=" img-fluid" src="img/balos4.png" alt="card image"></p>
                                     <h4 class="card-title">Abel Baloi</h4>
                                     <p class="card-text">This is basic card with image on top, title, description and button.</p>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -396,8 +448,8 @@
                         <div class="frontside">
                             <div class="card">
                                 <div class="card-body text-center">
-                                    <p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_06.jpg" alt="card image"></p>
-                                    <h4 class="card-title">John Baloi</h4>
+                                    <p><img class=" img-fluid" src="img/balos4.png" alt="card image"></p>
+                                    <h4 class="card-title">John Baloyi</h4>
                                     <p class="card-text">This is basic card with image on top, title, description and button.</p>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                                 </div>
@@ -406,7 +458,7 @@
                         <div class="backside">
                             <div class="card">
                                 <div class="card-body text-center mt-4">
-                                    <h4 class="card-title">John Baloi</h4>
+                                    <h4 class="card-title">John Baloyi</h4>
                                     <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
                                     <ul class="list-inline">
                                         <li class="list-inline-item">
@@ -442,51 +494,29 @@
     </div>
 </section>
 <!-- Team -->
-
+     <section class="portfolio pt-60 " id="portfolio">
   <div class="container">
-      <h2 class="porfolio-title">Portfolio</h2>
+      <h2 class="porfolio-title text-center  m-50" style="color:#007B5E;text-transform:uppercase;">Portfolio</h2>
         <!-- Top Navigation -->
         <div class="content">
          
             <div class="grid">
                 <figure class="effect-ravi">
-                    <img src="https://cdn.pixabay.com/photo/2016/01/19/17/48/woman-1149911_960_720.jpg" alt="img12" />
+                    <img src="img/agri-img1.jpeg" alt="img12" />
                     <figcaption>
                         <div>
-                            <h2>Rings</h2>
-                            <p>Rings - Buy Rings Online for men & women at best price in India.</p>
+                            <h2>farm</h2>
+                            <p>When we are on summer season we face nature issues like drought .</p>
                         </div>
                         <a href="#">View more</a>
                     </figcaption>
                 </figure>
                 <figure class="effect-ravi">
-                    <img src="https://cdn.pixabay.com/photo/2017/06/02/14/11/girl-2366438_960_720.jpg" alt="img1" />
+                    <img src="img/agri-img2.jpeg" alt="img1" />
                     <figcaption>
                         <div>
-                            <h2>Ear <span>rings</span></h2>
-                            <p>Earrings - Shop from the latest collection of Earrings for women & girls online.</p>
-                        </div>
-                        <a href="#">View more</a>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="grid">
-                <figure class="effect-ravi">
-                    <img src="https://cdn.pixabay.com/photo/2018/05/10/20/00/love-3388622_960_720.jpg" alt="img12" />
-                    <figcaption>
-                        <div>
-                            <h2>Bracelets</h2>
-                            <p>Bracelets for women and bangles that complement any outfit</p>
-                        </div>
-                        <a href="#">View more</a>
-                    </figcaption>
-                </figure>
-                <figure class="effect-ravi">
-                    <img src="https://cdn.pixabay.com/photo/2015/09/02/13/24/woman-919047_960_720.jpg" alt="img1" />
-                    <figcaption>
-                        <div>
-                            <h2>Jewellery <span>Sets</span></h2>
-                            <p>Buy Jewellery for Women, Girls & Men Online in India</p>
+                            <h2>Our <span>Workers</span></h2>
+                            <p>The best team we have ever had which is so determined and hard workers</p>
                         </div>
                         <a href="#">View more</a>
                     </figcaption>
@@ -494,21 +524,43 @@
             </div>
             <div class="grid">
                 <figure class="effect-ravi">
-                    <img src="https://cdn.pixabay.com/photo/2019/03/30/17/56/chaplet-4091636_960_720.jpg" alt="img12" />
+                    <img src="img/agri-img3.jpeg" alt="img12" />
                     <figcaption>
                         <div>
-                            <h2>Pendants</h2>
-                            <p>Buy Gold, Pearl Pendants for men, women & girls Online at best price.</p>
+                            <h2>Maize Meal</h2>
+                            <p>We are one of the largest suppliers of maize in Africa</p>
                         </div>
                         <a href="#">View more</a>
                     </figcaption>
                 </figure>
                 <figure class="effect-ravi">
-                    <img src="https://cdn.pixabay.com/photo/2016/11/29/06/48/bridal-1867900_960_720.jpg" alt="img1" />
+                    <img src="img/agri-img4.jpg" alt="img1" />
                     <figcaption>
                         <div>
-                            <h2>Pearl <span>Jewellery</span></h2>
-                            <p>Buy Jewellery for Women, Girls & Men Online in India</p>
+                            <h2>Our<span>Beans</span></h2>
+                            <p>We produce fine and delicious  beans in Africa</p>
+                        </div>
+                        <a href="#">View more</a>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="grid">
+                <figure class="effect-ravi">
+                    <img src="img/agri-img5.jpeg" alt="img12" />
+                    <figcaption>
+                        <div>
+                            <h2>Community</h2>
+                            <p>An extra hand from community ease work on us.</p>
+                        </div>
+                        <a href="#">View more</a>
+                    </figcaption>
+                </figure>
+                <figure class="effect-ravi">
+                    <img src="img/agri-back.jpeg" alt="img1" />
+                    <figcaption>
+                        <div>
+                            <h2>Organic <span>Wheat</span></h2>
+                            <p>We produce and sell the best wheat.</p>
                         </div>
                         <a href="#">View more</a>
                     </figcaption>
@@ -517,6 +569,7 @@
 
         </div>
     </div>
+     </section>
 <!-- end of Gallery-->
 
 <!--contact form-->
@@ -559,10 +612,8 @@
             <div class="col-12">
             <div class="form-group">
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value=" " id="invalidCheck2" required>
-                <label class="form-check-label" for="invalidCheck2">
-                     accept terms and conditions..
-                </label>
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                <label class="form-check-label" for="invalidCheck2">Accept terms and conditions..</label>
               </div>
             </div>
             </div>
@@ -573,15 +624,17 @@
         </form>
         <div class="text-white">
         <h2 class="text-uppercase mt-4 font-weight-bold">ADDRESS</h2>
-
-        <i class="fas fa-phone mt-3"></i> <a href="tel:+">(+27) 123456</a><br>
-        <i class="fas fa-phone mt-3"></i> <a href="tel:+">(+27) 123456</a><br>
-        <i class="fa fa-envelope mt-3"></i> <a href="">info@test.it</a><br>
-        <i class="fas fa-globe mt-3"></i> p.o.box 186,Madinyane  1, 00184 SA<br>
-        <i class="fas fa-globe mt-3"></i> p.o.box 186,Madinyane  1, 00184 SA<br>
+        <i class="fas fa-phone mt-3"></i> <a href="tel:+">(+27) 123456789</a><br>
+        <i class="fas fa-phone mt-3"></i> <a href="tel:+">(+27) 123456789</a><br>
+        <i class="fa fa-envelope mt-3"></i> <a href="">baloscrop@gmail.com</a><br>
+        <i class="fas fa-globe mt-3"></i> p.o.box 186,Madinyane  1, 0001 SA<br>
+        <i class="fas fa-globe mt-3"></i> p.o.box 186,Madinyane  1, 0001 SA<br>
         <div class="my-4">
         <a href=""><i class="fab fa-facebook fa-3x pr-4"></i></a>
         <a href=""><i class="fab fa-linkedin fa-3x"></i></a>
+        <a href=""><i class="fab fa-instagram fa-3x"></i></a>
+        <a href=""><i class="fab fa-twitter fa-3x"></i></a>
+        <a href=""><i class="fab fa-whatsapp fa-3x"></i></a>
         </div>
         </div>
       </div>
@@ -596,12 +649,14 @@
 </div>
 <div class="col-12 my-2">
 <a href="https://www.linkedin.com/in/abelbaloi/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
-</div>
+</div>    
 </div>
 
 <!--end of contact form-->
 <script>
     
+/*------- Smooth Scroll -------*/
+
 $('a[href^="#"]').on('click', function(event) {
 
     var target = $( $(this).attr('href') );
@@ -797,7 +852,10 @@ var ScrollPosStyler = (function(document, window) {
   return pub;
 })(document, window);
 
-    </script>
+
+
+
+  </script>;
 
     </body>
 </html>
