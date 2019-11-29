@@ -40,7 +40,6 @@
                     <li><a href="#team">Team</a></li>
                     <li><a href="#portfolio">portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
-     <!--<li class="book_trip"><a href="#"><i class="fa fa-map-marker"></i> Book Your Trip</a></li>-->
                 </ul>
             </nav>
 			
@@ -48,11 +47,6 @@
         </div>
     </header>
 
-<!--<nav class="navbar navbar-expand-lg mb-4 top-bar navbar-static-top sps sps--abv">
-        <div class="container">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse1" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
 <!-- Slider main container -->
 <div class="swiper-container main-slider" id="myCarousel">
   <div class="swiper-wrapper">
@@ -496,7 +490,7 @@
 <!-- Team -->
      <section class="portfolio pt-60 " id="portfolio">
   <div class="container">
-      <h2 class="porfolio-title text-center  m-50" style="color:#007B5E;text-transform:uppercase;">Portfolio</h2>
+      <h2 class="porfolio-title text-center  m-30" style="color:#007B5E;text-transform:uppercase;">Portfolio</h2>
         <!-- Top Navigation -->
         <div class="content">
          
@@ -613,7 +607,7 @@
             <div class="form-group">
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-                <label class="form-check-label" for="invalidCheck2">Accept terms and conditions..</label>
+                <label class="form-check-label" for="invalidCheck2">I Accept terms and Conditions..</label>
               </div>
             </div>
             </div>
