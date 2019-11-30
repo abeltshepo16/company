@@ -6,6 +6,7 @@
               
  
         <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
@@ -67,6 +68,9 @@
   <div class="swiper-button-next"><i class="fa fa-chevron-right"></i></div>
 </div>
 <!-- end of Nav-bar-->
+  <section id="section07" class="demo">
+                <p><a href="#section07"><span></span><span></span><span></span></a><p>
+           </section>
 <!--start of about us-->
 <div class="aboutus-section" id="about">
         <div class="container">
@@ -647,6 +651,7 @@
 </div>
 
 <!--end of contact form-->
+<a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
 <script>
     
 /*------- Smooth Scroll -------*/
@@ -846,8 +851,25 @@ var ScrollPosStyler = (function(document, window) {
   return pub;
 })(document, window);
 
+$(window).scroll(function() {
+    if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+        $('#return-to-top').fadeIn(200);    // Fade in the arrow
+    } else {
+        $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+    }
+});
+$('#return-to-top').click(function() {      // When arrow is clicked
+    $('body,html').animate({
+        scrollTop : 0                       // Scroll to top of body
+    }, 500);
+});
 
-
+    $(function() {
+  $('a[href*=#]').on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+  });
+});
 
   </script>;
 
