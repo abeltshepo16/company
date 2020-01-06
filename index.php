@@ -8,6 +8,7 @@
         <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
         <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/responsive.css">
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -61,16 +62,17 @@
       <h2>We are inspired to conserve nature as it plays a huge rule in many lives </h2>
     </div>
   </div>
+    
   <!-- Add Pagination -->
   <div class="swiper-pagination"></div>
+   
   <!-- Add Navigation -->
   <div class="swiper-button-prev"><i class="fa fa-chevron-left"></i></div>
   <div class="swiper-button-next"><i class="fa fa-chevron-right"></i></div>
+   
 </div>
 <!-- end of Nav-bar-->
-  <section id="section07" class="demo">
-                <p><a href="#section07"><span></span><span></span><span></span></a><p>
-           </section>
+
 <!--start of about us-->
 <div class="aboutus-section" id="about">
         <div class="container">
@@ -78,8 +80,8 @@
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="aboutus">
                         <h2 class="aboutus-title">About Us</h2>
-                        <p class="aboutus-text">Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in.</p>
-                        <p class="aboutus-text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem</p>
+                        <p class="aboutus-text">We started recognizing a need in our community .A local pop-up market went out business during the recession and difficult times.</p>
+                        <p class="aboutus-text">It left 2.5 acress of abandoned land .We envisioned a community could meet and share their love for plants,gardening and helping the environment.</p>
                         <a class="aboutus-more" href="#">read more</a>
                     </div>
                 </div>
@@ -97,7 +99,7 @@
                                 </div>
                                 <div class="feature-content">
                                     <h4>Work with heart</h4>
-                                    <p>Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in.</p>
+                                    <p>Since 2016 ,our mission has been to bring the community together .provide education on sustainable gardening practices.</p>
                                 </div>
                             </div>
                         </div>
@@ -108,7 +110,7 @@
                                 </div>
                                 <div class="feature-content">
                                     <h4>Reliable services</h4>
-                                    <p>Donec vitae sapien ut libero venenatis faucibu. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt</p>
+                                    <p>We don't just produce organic vegetables but we also support communities that are looking to grow or develop green spaces by selling materials and products from their own gardens.</p>
                                 </div>
                             </div>
                         </div>
@@ -119,7 +121,7 @@
                                 </div>
                                 <div class="feature-content">
                                     <h4>Great support</h4>
-                                    <p>Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in.</p>
+                                    <p>if you're interested in joining us or donating to our programs.feel free to contact us!</p>
                                 </div>
                             </div>
                         </div>
@@ -146,48 +148,48 @@
                   <!-- Single Service -->
                   <div class="single-service">
                      <i class="fa fa-laptop"></i>
-                     <h4>Web Design </h4>
-                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                     <h4>Plough</h4>
+                     <p>We plough and assist upcoming small farmers with extra hand and knowledge they need.</p>
                   </div>
                </div>
                <div class="col-lg-4 col-md-6">
                   <!-- Single Service -->
                   <div class="single-service">
                      <i class="fa fa-gears"></i>
-                     <h4>Web Development</h4>
-                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                     <h4>Products</h4>
+                     <p>Our farm produce organic healthy vegitables that evryone especially community can affort.</p>
                   </div>
                </div>
                <div class="col-lg-4 col-md-6">
                   <!-- Single Service -->
                   <div class="single-service">
                      <i class="fa fa-mobile"></i>
-                     <h4>Responsive Design</h4>
-                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                     <h4>Preparing</h4>
+                     <p>We make sure our products are of good quality hygiene clean so that can be ready for usage and packaging.</p>
                   </div>
                </div>
                <div class="col-lg-4 col-md-6">
                   <!-- Single Service -->
                   <div class="single-service">
                      <i class="fa fa-magic"></i>
-                     <h4>Graphic Design</h4>
-                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                     <h4>Packaging</h4>
+                     <p>We prepare the package when ordered according to customer's expectations so they stay satisfied.</p>
                   </div>
                </div>
                <div class="col-lg-4 col-md-6">
                   <!-- Single Service -->
                   <div class="single-service">
                      <i class="fa fa-pencil"></i>
-                     <h4>Creative Design</h4>
-                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                     <h4>Branding</h4>
+                     <p>Our farm have their own brands which they create with the veggies we grow to produce good products.</p>
                   </div>
                </div>
                <div class="col-lg-4 col-md-6">
                   <!-- Single Service -->
                   <div class="single-service">
                      <i class="fa fa-fa fa-lightbulb-o"></i>
-                     <h4>Branding</h4>
-                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                     <h4>Delivery</h4>
+                     <p>wherever you are in the country we offer reasonable delivery prices and deliver on time.</p>
                   </div>
                </div>
             </div>
@@ -197,7 +199,7 @@
 <!-- Team -->
 <section id="team" class="pb-5">
     <div class="container">
-        <h5 class="section-title h1">OUR TEAM</h5>
+        <h5 class="section-title h1">THIS IS OUR AWESOME TEAM</h5>
         <div class="row">
             <!-- Team member -->
             <div class="col-xs-12 col-sm-6 col-md-4">
@@ -208,7 +210,7 @@
                                 <div class="card-body text-center">
                                     <p><img class=" img-fluid" src="img/balos3.png" alt="card image"></p>
                                     <h4 class="card-title">Siphiwe Nkuna</h4>
-                                    <p class="card-text">This is basic card with image on top, title, description and button.</p>
+                                    <p class="card-text">Treasure</p>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                                 </div>
                             </div>
@@ -256,7 +258,7 @@
                                 <div class="card-body text-center">
                                     <p><img class=" img-fluid" src="img/balos1.png" alt="card image"></p>
                                     <h4 class="card-title">Kegomoditswe Baloyi</h4>
-                                    <p class="card-text">This is basic card with image on top, title, description and button.</p>
+                                    <p class="card-text">Assistant Treasure</p>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                                 </div>
                             </div>
@@ -304,7 +306,7 @@
                                 <div class="card-body text-center">
                                     <p><img class=" img-fluid" src="img/balos5.png" alt="card image"></p>
                                     <h4 class="card-title">Josephine Baloi</h4>
-                                    <p class="card-text">This is basic card with image on top, title, description and button.</p>
+                                    <p class="card-text">Production Manager</p>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                                 </div>
                             </div>
@@ -352,7 +354,7 @@
                                 <div class="card-body text-center">
                                     <p><img class=" img-fluid" src="img/balos2.png" alt="card image"></p>
                                     <h4 class="card-title">Malebo Baloi</h4>
-                                    <p class="card-text">This is basic card with image on top, title, description and button.</p>
+                                    <p class="card-text">HR</p>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                                 </div>
                             </div>
@@ -400,7 +402,7 @@
                                 <div class="card-body text-center">
                                     <p><img class=" img-fluid" src="img/balos4.png" alt="card image"></p>
                                     <h4 class="card-title">Abel Baloi</h4>
-                                    <p class="card-text">This is basic card with image on top, title, description and button.</p>
+                                    <p class="card-text">Markerting Director.</p>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                                 </div>
                             </div>
@@ -448,7 +450,7 @@
                                 <div class="card-body text-center">
                                     <p><img class=" img-fluid" src="img/balos4.png" alt="card image"></p>
                                     <h4 class="card-title">John Baloyi</h4>
-                                    <p class="card-text">This is basic card with image on top, title, description and button.</p>
+                                    <p class="card-text">Director</p>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                                 </div>
                             </div>
@@ -864,12 +866,6 @@ $('#return-to-top').click(function() {      // When arrow is clicked
     }, 500);
 });
 
-    $(function() {
-  $('a[href*=#]').on('click', function(e) {
-    e.preventDefault();
-    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
-  });
-});
 
   </script>;
 
